@@ -1,0 +1,212 @@
+Key Responsibilities
+
+Building strategic relationships with key technology and business leaders to ensure success
+
+Lead planning, execution, and delivery of large cross-teams projects
+
+Develop and implement strategic objectives aligned with strategic initiatives
+
+Set my team up for success by removing obstacles and supporting their professional growth
+
+Collaborate with the Product Manager to plan and prioritise work on my team’s roadmap
+
+Work closely with the talent acquisition team to define a hiring process for my team that ensures we hire the best talent
+
+Member of the wider Engineering Management team, meeting regularly with peers from other teams to discuss best practices and challenges
+
+-------------------
+
+How do I balance technical debt vs project delivery?
+
+I approach tech debt in 2 ways:
+1. For smaller items or tasks that can be broken down, I squeeze it in every sprint and ensure developers have 10-15% of their bandwidth available to support it
+Few examplesare:
+Architectural debt : Modular loyalty code
+Sonarqube - CodeQuality and Static analysis
+Snyk - Security vulnerabilities
+Documentation Debt
+Automation Debt
+2. For bigger tasks like rewriting/redesigning services, I take it to the Quarterly planning discussion forums to align with Product and Senior Stakeholders to allocate time and resource.
+
+-------------------
+
+Architecting for Scale
+- ECS with EC2 instances with auto scaling
+- Cloudwatch alarm to monitor metric
+- Scale in and scale out
+
+-------------------
+
+Biggest Achievement - Inception, Built and Deliver a Data Analytics tool
+
+During covid, Expedia moved focus to improve the booking platform
+Goal was to improve the booking success rate
+Needed a data analytics tool to identify bottlenecks
+Splunk dashboards were not enough. Millions of logs generating everyday and impossible to log all aspects of bookings.
+Made use of Event Publishing System which was based on Kakfa.
+Subscribed S3 buckets to collect raw data.
+Processed data using AWS Glue ETL jobs to generate Data Catalogue tables.
+Tableau to visualise - Identify top errors across LOBs, collaborating with teams to get them fixed
+
+Challenges
+- Changes to data being published to include/exclude fields that were needed for analysis
+- Huge data sets to process - Made use of ETL job to pre-process the data
+- Decide on common format across LOBs
+- Identify bottleneck as lot of errors were generic/no description
+- Success vs Failures
+- Daily to Real time
+- Generate trends
+
+Result
+- Increase booking rate by 1.2% over 6 months
+- Achieved by identifying top 3 errors across LOBs and getting then fixed
+
+Also achieved Operational Excellence
+- Live dashboards for monitoring Bookings
+- Top Errors
+- Filters for Partner to narrow down
+- Alerts setup to trigger via Email and Slack
+- Production Monitoring using OpsGenie / PagerDuty
+
+-------------------
+
+How do I Manage high performing team?
+
+- Defined roles and responsibilities
+- Ownership and Accountability
+- Clear goals
+- Communication
+- Conflict management
+- Trust among teammates
+- Open to give/receive feedback
+- Invest in PDP
+- Innovation
+- Diversity
+- Celebrate milestones
+- 1:1s
+
+-------------------
+
+How do I build Trust with my team?
+
+Set expectations and boundaries
+Communicate openly and honestly with each other, without fear of judgment or criticism
+Demonstrate transparency
+Conduct team-building activities
+Hold regular one-on-one meetings to check in
+Be the first to admit when you're wrong
+Show appreciation for each team member's contribution
+Celebrate milestones together
+Lead by example
+
+-------------------
+
+GWhat does a good 1-1 look like to me?
+
+- Regularly happen
+- Agenda
+- Open to feedback, 2 way conversation
+- Understand aspirations and how to support through trainings, etc
+- Action Items
+
+-------------------
+
+How do I Manage difficult people?
+
+General Characteristics of such people
+- Uncompromising
+- Easily frustrated
+- Poor listeners
+- Complainers
+
+How to handle them?
+- LISTEN
+- REMAIN CALM
+- SEARCH FOR THE HIDDEN NEED
+- DON’T DOWNPLAY THEIR FEELINGS
+- ASK QUESTIONS
+- DON’T RECIPROCATE NEGATIVE BEHAVIORS
+- CREATE SPACE
+- DON’T BE DEFENSIVE
+- BE FLEXIBLE
+- TALK IT OVER WITH SOMEONE ELSE
+
+-------------------
+
+How do I handle a Conflict situation?
+
+1. Clarify what is the source of conflict
+2. Find a safe and private place to talk
+3. Listen actively and let everyone have their say
+4. Investigate the situation
+5. Determine ways to meet the common goal
+6. Agree on the best solution and determine the responsibilities each party has in the resolution
+7. Evaluate how things are going and decide preventative strategies for the future
+
+-------------------
+
+Lessons learned as a manager / Strengths
+
+- Stay Organized
+- Over communicate
+- Space for innovation
+- Setup others for success
+- Bit of fun is important, celebrating milestones of teams and individuals
+
+-------------------
+
+What are the best techniques for dealing with ambiguity in system development?
+
+Clarify the scope and objectives
+Involve the users and stakeholders
+Adopt an iterative and incremental approach
+Use models and prototypes
+
+-------------------
+
+WHat Metrics do I use to measure success?
+
+User Engagement
+Financial Impact
+Product Quality
+Operational Metrics
+Custom KPIs
+
+-------------------
+
+Leadership Style
+
+"My leadership style is collaborative and empowering. I believe in fostering a team-oriented environment where everyone feels valued and motivated to contribute their best. I prioritize open communication, transparency, and mutual respect within my team. One of the key aspects of my leadership is empowering team members to take ownership of their work and providing them with the support and resources they need to succeed.
+
+For example, in my previous role as a project manager, I implemented regular team meetings where everyone had the opportunity to share their ideas and concerns. This not only improved communication but also encouraged creativity and innovation. I also believe in leading by example and being approachable, which helps build trust and rapport among team members.
+
+As a result of my leadership style, I've seen increased team morale, higher productivity, and successful project outcomes. By empowering individuals and fostering a collaborative culture, I believe we can achieve greater results collectively."
+
+-------------------
+
+Can you describe your experience leading engineering teams in the development of complex products or features?
+Data analytics tool in Expedia
+
+-------------------
+
+How do you collaborate with product management and other cross-functional teams to define and execute product roadmaps?
+Understanding Product Vision and Goals
+Participating in Roadmap Planning
+Facilitating Cross-Functional Workshops
+Iterative Development and Feedback Loops
+
+-------------------
+
+Recognition
+
+Helps with:
+- Retain top talent 
+- Increase employee engagement 
+- Encourage high performance
+
+Achievements 
+Going above and beyond expectations 
+Milestones such as tenure 
+
+-------------------
+
